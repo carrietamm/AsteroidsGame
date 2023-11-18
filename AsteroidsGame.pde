@@ -8,6 +8,15 @@ for(int i = 0; i < ns.length; i++){
 ns[i] = new h();
   }
 }
+public void draw()
+{
+background(0);
+carrie.show();
+carrie.move();
+for(int i = 0; i < ns.length; i++){
+ns[i].show();
+  }
+}
 
 public void keyPressed()
 {
@@ -134,14 +143,5 @@ class h
   public void show(){
   fill(255);
   ellipse(myX, myY, 3, 3);
-  }
-}
-public void draw()
-{
-background(0);
-carrie.show();
-carrie.move();
-for(int i = 0; i < ns.length; i++){
-ns[i].show();
   }
 }

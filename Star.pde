@@ -27,4 +27,5 @@ bob.show();
 bob.move();
 for(int i = 0; i < nightSky.length; i++){
 nightSky[i].show();
-fill(255);
+  }
+}

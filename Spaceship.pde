@@ -35,5 +35,10 @@ public void setYspeed(double y) {
   public void setYCenter(double y2) {
   myCenterY = y2;
   }
-
+   public double getX(){
+  return myCenterX;
+  }
+  public double getY(){
+  return myCenterY;
+  }
 }

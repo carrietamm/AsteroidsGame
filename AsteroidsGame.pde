@@ -7,7 +7,7 @@ size(400,400);
 for(int b = 0; b < nightSky.length; b++){
   nightSky[b] = new Star();
   }
-  for(int j = 0; j < 100; j++){
+  for(int j = 0; j < 500; j++){
     ast.add(new Asteroid());
   }
 }

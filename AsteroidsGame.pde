@@ -19,7 +19,7 @@ public void draw()
   for(int i = 0; i < nightSky.length; i++){
   nightSky[i].show();
   }
-  for(int a = 0; a <9 ;a++){
+  for(int a = 0; a <100 ;a++){
     ast.get(a).move();  
     ast.get(a).show(); 
     float d = dist((float)bob.getX(), (float)bob.getY(), (float)ast.get(a).getX(), (float)ast.get(a).getY());
